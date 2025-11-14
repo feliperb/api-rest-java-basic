@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch (build with Maven)",
+            "request": "launch",
+            "preLaunchTask": "maven-build",
+            // ajuste "mainClass" para a sua classe principal (ex: com.example.apirest.Application)
+            "mainClass": "com.example.apirest.Application"
+        }
+    ]
+}
